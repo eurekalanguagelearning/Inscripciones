@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Elimina tags HTML (<, >), comillas dobles/simples y backticks
         return value.replace(/<|>/g, '') 
-                    .replace(/"|'|`/g, '');
+                    .replace(/"|`/g, '');
     }
     
     // 3. Función de validación de patrones (detección de scripts)
