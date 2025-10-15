@@ -1,0 +1,246 @@
+
+header{
+    display: flex;
+    min-height: 70px;
+    justify-content: space-between;
+    background-color: rgb(249, 82, 3);
+    color: white;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 2147483647 !important;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-family: jumper, sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#logoeurecablanco{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+}
+
+form{
+    color:white;
+    text-align: center;
+    background-color: #0d7ff9;
+}
+
+input[type="text"]{
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    width: 300px; 
+}
+
+input[type="text"]::checkmark{
+    background-color: black;
+    box-shadow:inset 0 0 10px rgba(0, 0, 0, 0.782);
+    border-color: white;
+}
+input[type="email"]{
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    width: 300px; /* LA CAUSA DEL DESBORDE */
+}
+input[type="tel"]{
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    width: 300px; /* LA CAUSA DEL DESBORDE */
+}
+
+
+input:hover[type="text"]::placeholder{
+    background-color: rgba(0, 0, 0, 0.094);
+    color: rgb(0, 0, 0);
+    
+    
+    
+}
+input:hover[type="email"]::placeholder{
+    background-color: rgba(0, 0, 0, 0.094);
+    color: rgb(0, 0, 0);
+    
+    
+}
+input:hover[type="tel"]::placeholder{
+    background-color: rgba(0, 0, 0, 0.094);
+    color: rgb(0, 0, 0);
+    
+    
+}
+
+
+
+input[type="time"]{
+    border-radius: 15px;
+    color: rgb(249, 82, 3);
+}
+
+input[type="date"]{
+    border-radius: 15px;
+    color: rgb(249, 82, 3);
+
+}
+
+.enviar_formulario {
+    background-color: rgb(249, 82, 3);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.393);
+}
+
+.enviar_formulario:hover {
+    background-color: rgb(255, 255, 255);
+    padding: 11px 21px; 
+    cursor: pointer;
+    color: rgb(249,82,3);
+}
+
+.enviar_formulario:active{
+    background-color: rgb(249, 82, 3);
+    box-shadow:inset 0 0 10px rgba(0, 0, 0, 0.782);
+}
+
+label {
+    display: block;
+    cursor: pointer;
+    line-height: 2.5;
+    color: black;
+}
+
+/* the basic, unchecked style */
+input[type="radio"] {
+    appearance: none;
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    border: 0.25em solid rgb(249,82,3)
+}
+
+[type="radio"]:focus  {
+    background: lightgreen;
+    border-color: white;
+    box-shadow: 0 0 0 3px rgb(22,155,164)
+}
+/* the checked style using the :checked pseudo class */
+[type="radio"]:checked  {
+    background: rgb(249, 82, 3);
+    border-color: white;
+    box-shadow: 0 0 0 3px rgb(22,155,164)
+}
+
+fieldset {
+    display: inline-block;
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 15px;
+    border: 2px solid rgb(249, 82, 3);
+    background:rgb(255, 255, 255);
+    margin-top: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+legend {
+    display: inline-block;
+    background: rgb(249, 82, 3);
+    color: white;
+    border-radius: 15px;
+    padding: 6px 18px;
+    font-weight: bold;
+    white-space: nowrap; /* No permite saltos de línea */
+}
+legend, label, span, td {
+    white-space: nowrap;
+}
+
+input, textarea, select {
+    border: 2px solid rgb(249, 82, 3); /* Cambia el color y grosor del borde */
+}
+
+.form-select{
+    border-color: #000000;
+    text-align:center;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#miNumero{
+    border-color:rgb(249,82,3);
+    border-radius: 15px;
+    text-align:center;
+}
+
+.list-unstyled label {
+    display: block;
+    padding: 8px 0;
+    font-size: 1rem;
+}
+
+.align-fieldsets {
+    display: flex;
+    align-items: stretch;
+}
+
+.align-fieldsets .col-md-6 {
+    display: flex;
+    flex-direction: column;
+}
+
+.align-fieldsets fieldset {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+.fieldset-datos{
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+.opciones-servicio label {
+    font-size: 1.05rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.opciones-genero label {
+    font-size: 1.05rem;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.opciones-genero input[type="radio"] {
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.opciones-servicio input[type="radio"] {
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+#edad{
+    text-align: center;
+    border-radius: 15px;
+}
