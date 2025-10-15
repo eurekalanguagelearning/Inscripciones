@@ -147,8 +147,11 @@ fieldset {
     padding: 12px 20px;
     border-radius: 15px;
     border: 2px solid rgb(249, 82, 3);
-    background:rgb(255, 255, 255);
+    background-color: white;
     margin-top: 30px;
+    background-image:url('../img/background-paper.jpg') !important ;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
 }
 
 li {
@@ -210,11 +213,7 @@ input, textarea, select {
 
 
 
-.fieldset-datos{
-    width: 100%;
-    box-sizing: border-box;
-    margin-bottom: 16px;
-}
+
 
 .opciones-servicio label {
     font-size: 1.05rem;
