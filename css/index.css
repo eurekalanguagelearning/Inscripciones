@@ -244,3 +244,21 @@ input, textarea, select {
     text-align: center;
     border-radius: 15px;
 }
+
+h1{
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h1:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: transform 0.5s ease;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
