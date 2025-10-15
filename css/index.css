@@ -149,7 +149,6 @@ fieldset {
     border: 2px solid rgb(249, 82, 3);
     background-color: white;
     margin-top: 30px;
-    background-image:url('../img/background-paper.jpg') !important ;
     background-repeat: no-repeat !important;
     background-position: center !important;
 }
